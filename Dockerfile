@@ -5,7 +5,9 @@ FROM tercen/runtime-r40:4.0.4-1
 RUN apt-get update && \
     apt-get install -y openjdk-8-jdk && \
     apt-get install -y ant && \
+    apt-get install -y curl && \
     apt-get clean;
+
 # install nextflow
 RUN curl -s https://get.nextflow.io | bash
 RUN chmod +x nextflow
