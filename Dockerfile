@@ -7,10 +7,10 @@ RUN apt-get update && \
     apt-get install -y ant && \
     apt-get clean;
 # install nextflow
-RUN curl -s https:nop sudo //get.nextflow.io | bash
+RUN curl -s https://get.nextflow.io | bash
+RUN chmod +x nextflow
 
 # move nextflow
-# change permissions
 
 ENV RENV_VERSION 0.13.0
 RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cran.r-project.org'))"
