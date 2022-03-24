@@ -4,6 +4,6 @@
 "tags": ["bioinformatics", "pipeline", "nextflow"],
 "authors": ["tercen"],
 "urls": ["https://github.com/tercen/nextflow_example_operator"],
-"container":"tercen/nextflow_example_operator:0.0.6",
+"container":"tercen/nextflow_example_operator:0.0.8",
 "properties": [ ]
 }
