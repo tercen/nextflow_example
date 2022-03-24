@@ -1,9 +1,9 @@
 {
-"name": "simple docker operator",
-"description": "simple docker operator",
-"tags": [""],
+"name": "Nextflow example operator",
+"description": "Minimal example for the Tercen integration of Nextflow pipelines.",
+"tags": ["bioinformatics", "pipeline", "nextflow"],
 "authors": ["tercen"],
-"urls": ["https://github.com/tercen/simple_docker_operator"],
-"container":"tercen/simple_docker_operator:latest",
+"urls": ["https://github.com/tercen/nextflow_example_operator"],
+"container":"tercen/nextflow_example_operator:latest",
 "properties": [ ]
 }

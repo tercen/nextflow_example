@@ -1,6 +1,17 @@
 FROM tercen/runtime-r40:4.0.4-1
 #FROM tercen/runtime-r40-slim:4.0.4-0
 
+# install java
+RUN apt-get update && \
+    apt-get install -y openjdk-8-jdk && \
+    apt-get install -y ant && \
+    apt-get clean;
+# install nextflow
+RUN curl -s https:nop sudo //get.nextflow.io | bash
+
+# move nextflow
+# change permissions
+
 ENV RENV_VERSION 0.13.0
 RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cran.r-project.org'))"
 RUN R -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"

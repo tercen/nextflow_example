@@ -148,6 +148,20 @@
       "Repository": "RSPM",
       "Hash": "01f28d4278f15c76cddbea05899c5d6f"
     },
+    "processx": {
+      "Package": "processx",
+      "Version": "3.4.5",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "22aab6098cb14edd0a5973a8438b569b"
+    },
+    "ps": {
+      "Package": "ps",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "32620e2001c1dce1af49c49dccbb9420"
+    },
     "purrr": {
       "Package": "purrr",
       "Version": "0.3.4",
