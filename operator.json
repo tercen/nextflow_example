@@ -3,7 +3,7 @@
 "description": "Minimal example for the Tercen integration of Nextflow pipelines.",
 "tags": ["bioinformatics", "pipeline", "nextflow"],
 "authors": ["tercen"],
-"urls": ["https://github.com/tercen/nextflow_example_operator"],
-"container":"tercen/nextflow_example_operator:0.0.8",
+"urls": ["https://github.com/tercen/nextflow_example"],
+"container":"tercen/nextflow_example:0.0.8",
 "properties": [ ]
 }
